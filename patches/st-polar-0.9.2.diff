@@ -10,7 +10,7 @@ index 26b7241..5947d2a 100644
 +SRC = st.c x.c boxdraw.c
  OBJ = $(SRC:.c=.o)
  
- all: st
+ all: st-polar
 @@ -17,6 +17,7 @@ config.h:
  
  st.o: config.h st.h win.h
